@@ -1,0 +1,10 @@
+Capstone Code & Data_aimlChnOct19Grp4
+Phase one:
+https://colab.research.google.com/drive/1V4-AJA-L_JT-WgCSgT8XTCPW2_4viYWl?usp=sharing
+Curated Dataset:
+https://drive.google.com/file/d/1pUfLEZY-474VCRI49RZtGbGYTk5fQsXC/view?usp=sharing
+Final Prediction:
+https://colab.research.google.com/drive/1I_NUU-SQmKgzxa2stRoTnX3cxsMLkKVB?usp=sharing
+Built Model:
+https://drive.google.com/drive/folders/1lq5V7wzUu9idc-6itwBGIQ101r4kT6lo?usp=sharing
+
