@@ -1,0 +1,12 @@
+import cv2
+cap = cv2.VideoCapture("http://192.168.1.4:8080/video") 
+# Get the streaming data from IP Webcam from playstore 
+while True:
+    _, frame = cap.read()
+    mirror = cv2.flip(frame, 1)
+    cv2.imshow('livestream', mirror)
+
+    if cv2.waitKey(1) == ord("q"):
+        break
+cap.release()
+cv2.destroyAllWindows()
