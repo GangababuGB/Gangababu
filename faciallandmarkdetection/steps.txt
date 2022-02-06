@@ -1,0 +1,56 @@
+
+Ever wondered how snapchat filters work?
+
+Three words...facial landmark recognition!
+
+Facial landmark recognition allows you to detect a number of different points on your face that together make up your eyes, mouth, ears, nose and so on. From there you're able to apply overlays aka filters to get your snap! But there's so much more that it can be used for like emotion analysis and face tracking. 
+
+Sounds a little difficult though, right? Well, in this video you'll learn how to build your own face landmark detector app in 20 minutes using Javascript and Tensorflow.JS. 
+
+In this video you'll learn how to:
+1. Install the Tensorflow.JS facemesh model
+2. Build a Javascript React.JS face landmark detection app
+3. Detecting landmarks on your face in real time using your webcam
+
+Resources:
+Tensorflow.Js models: https://www.tensorflow.org/js/models
+HTML Canvas: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+Create React App: https://reactjs.org/docs/create-a-new-react-app.html
+
+GitHub: https://github.com/nicknochnack/FacialLandmarkDetection
+
+My steps GB:
+C:\Users\jmgba\Desktop\facemesh
+or
+CD /D E:\facemesh
+
+Install :
+https://nodejs.org/en/
+
+npx create-react-app my-app
+y
+cmd:
+cd C:\Users\jmgba\Desktop\facemesh
+code .  #Open project via visual studio code
+
+Steps to carry out the project inside Visual studio.
+// 1. Install dependencies 
+// 2. Import dependencies 
+// 3. Setup webcam and canvas 
+// 4. Define references to those 
+// 5. Load posenet 
+// 6. Detect function 
+// 7. Drawing utilities from tensorflow 
+// 8. Draw functions 
+
+// 1. Install dependencies
+npm install @tensorflow/tfjs @tensorflow-models/facemesh react-webcam
+npm install @tensorflow-models/face-landmarks-detection
+cd my-app
+npm run start # T
+
+// 2. Import dependencies @App.js file
+import React, { useRef, useEffect } from "react";
+import * as tf from "@tensorflow/tfjs";
+import * as facemesh from "@tensorflow-models/facemesh";
+import webcam from "react-webcam";
