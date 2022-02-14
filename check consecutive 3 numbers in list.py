@@ -8,3 +8,12 @@ for k, g in groupby(enumerate(data), lambda i: i[0] - i[1]):
         print(x,bool(x))
     elif len(x) < 3:
         print(x,'False')
+
+# Output
+# [1, 2] False
+# [4, 5, 6] True
+# [10] False
+# [15, 16, 17, 18] True
+# [22] False
+# [25, 26, 27, 28] True
+# [30] False
