@@ -2,3 +2,4 @@ https://awesomeopensource.com/project/EthicalML/awesome-production-machine-learn
 
 https://metaflow.org/
 https://www.kubeflow.org/docs/started/
+https://awesomeopensource.com/project/NVIDIA/TensorRT
