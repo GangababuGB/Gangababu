@@ -5,3 +5,4 @@ https://www.kubeflow.org/docs/started/
 https://awesomeopensource.com/project/NVIDIA/TensorRT
 https://awesomeopensource.com/project/aws/amazon-sagemaker-examples
 https://awesomeopensource.com/project/microsoft/MLOps
+https://codingcompetitionsonair.withgoogle.com/
