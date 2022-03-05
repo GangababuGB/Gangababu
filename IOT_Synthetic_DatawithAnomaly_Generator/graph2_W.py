@@ -8,21 +8,20 @@ from datetime import datetime
 
 dt = datetime.now()
 dt = dt.strftime("%m.%d.%Y")
-RT = pd.read_csv('sensor_IOT.csv')
-RT['TS'] = pd.to_datetime(RT['TS'])
-TSF = RT['TS'].iloc[:1]
-TSL = RT['TS'].iloc[-1:]
-TT = str(pd.to_timedelta(TSL.values[0]-TSF.values[0]))
+
 
 #plt.style.use('fivethirtyeight')
 #plt.style.use('dark_background')
 fig, (ax1,ax2) = plt.subplots(2,1)
 
 def animate(i):
+    RT = pd.read_csv('sensor_IOT.csv')
+    RT['TS'] = pd.to_datetime(RT['TS'])
+    TSF = RT['TS'].iloc[:1]
+    TSL = RT['TS'].iloc[-1:]
+    TT = str(pd.to_timedelta(TSL.values[0]-TSF.values[0]))
     data = pd.read_csv('sensor_IOT.csv')
     data = data.iloc[-60:]
-    TSF = data['TS'].iloc[2:]
-    TSL = data['TS'].iloc[-1:]
     TS = data['TS'].str[-11:]
     xs1 = data['xs1']
     xs2 = data['xs2']
